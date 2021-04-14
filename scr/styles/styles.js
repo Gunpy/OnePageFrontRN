@@ -92,8 +92,28 @@ const styles = StyleSheet.create({
         height: 22,
         borderRadius: 44/2,
         marginBottom: 10,
+    },
+    heartEllips:{
+        position:'absolute',
+        top:'10%',
+        left:'11%',
+        width:36,
+        height:36,
+        borderRadius:30,
+        padding:8,
+        backgroundColor: 'rgba(0, 0, 0, 0.2)',
+    },
+    crossEllips:{
+        zIndex:100,
+        position:'absolute',
+        left:160,
+        width:36,
+        height:36,
+        borderRadius:30,
+        padding:8,
+        backgroundColor: 'rgba(0, 0, 0, 0.2)',
+    },
     }
-
-});
+);
 
 export default styles
